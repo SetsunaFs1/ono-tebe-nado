@@ -14,23 +14,27 @@
   padding-right: 8px;
 }
 
+.header__links-list {
+  display: flex;
+  gap: 34px;
+}
+
 .header__links-list-item {
   list-style: circle;
+}
+
+.header__link {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
 
-.header__links-list {
-  display: flex;
-  gap: 34px;
-  text-underline-offset: 4px;
-}
-
 .header__link_active {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
+  text-decoration: none;
 }
 
 .header__logo {
@@ -59,7 +63,7 @@
   justify-self: center;
 }
 
-.header__address a {
+.header__address__link {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
@@ -76,7 +80,7 @@
 }
 
 .cover {
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -130,8 +134,7 @@
 }
 
 .bet-button {
-  width: 256px;
-  height: 51px;
+  padding: 12px 32px 11px 31px;
   font-weight: 500;
   font-size: 22px;
   color: #fff;
@@ -183,7 +186,7 @@
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -191,7 +194,7 @@
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -199,7 +202,7 @@
 }
 
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -308,10 +311,14 @@
   list-style: none;
 }
 
-.footer__menu-link_active {
+.footer__menu-link {
   text-underline-offset: 4px;
   text-decoration: underline;
   text-decoration-thickness: 1px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
 
 .footer__social-list {
