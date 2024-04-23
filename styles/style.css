@@ -61,9 +61,10 @@
   padding-right: 25.48px;
   grid-column: -1 / -3;
   justify-self: center;
+
 }
 
-.header__address__link {
+.address-link {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
@@ -153,7 +154,7 @@
 }
 
 .lots__heading {
-  padding: 0 891px 26px 40px;
+  padding: 0 0 26px 40px;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -230,7 +231,7 @@
 
 .lots__look-more-link {
   display: block;
-  padding: 28px 820px 0 40px;
+  padding: 28px 0 0 40px;
   font-weight: 400;
   font-size: 20px;
   text-decoration: underline;
