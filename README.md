@@ -12,5 +12,6 @@
 - Использовала Pixel Perfect для доводки вёрстки
   
 **Результат:** верстка  и стили страницы полностью совпадают с макетом в Figma.
-  
-**https://github.com/SetsunaFs1/ono-tebe-nado**
+
+**Ссылка на страницу:**
+**https://setsunafs1.github.io/ono-tebe-nado/**
